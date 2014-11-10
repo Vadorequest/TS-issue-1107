@@ -1,7 +1,7 @@
 ///<reference path='lib/def/defLoader.d.ts'/>
 
-//import cli = require('./../App/Cli');
-import cli = require('./Cli');
+import cli = require('./../app/Cli');
+//import cli = require('./Cli');
 var Cli = cli.Cli;
 
 /**

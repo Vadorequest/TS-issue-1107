@@ -1,5 +1,6 @@
 ///<reference path='lib/def/defLoader.d.ts'/>
-define(["require", "exports", './Cli'], function (require, exports, cli) {
+define(["require", "exports", './../app/Cli'], function (require, exports, cli) {
+    //import cli = require('./Cli');
     var Cli = cli.Cli;
     /**
      * Tool to manage Sails tasks.
